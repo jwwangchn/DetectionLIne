@@ -1,2 +1,2 @@
-# DetectionLIne
-Detection LIne
+# DetectionLine
+Detection Line
