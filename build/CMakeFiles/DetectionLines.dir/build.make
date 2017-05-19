@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ling/Documents/jwwangchn/ICRA/DetectionLines
+CMAKE_SOURCE_DIR = /home/ubuntu/Documents/ICRA/DetectionLines
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ling/Documents/jwwangchn/ICRA/DetectionLines/build
+CMAKE_BINARY_DIR = /home/ubuntu/Documents/ICRA/DetectionLines/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/DetectionLines.dir/depend.make
@@ -54,17 +54,17 @@ include CMakeFiles/DetectionLines.dir/flags.make
 
 CMakeFiles/DetectionLines.dir/main.cpp.o: CMakeFiles/DetectionLines.dir/flags.make
 CMakeFiles/DetectionLines.dir/main.cpp.o: ../main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ling/Documents/jwwangchn/ICRA/DetectionLines/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/Documents/ICRA/DetectionLines/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/DetectionLines.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/DetectionLines.dir/main.cpp.o -c /home/ling/Documents/jwwangchn/ICRA/DetectionLines/main.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/DetectionLines.dir/main.cpp.o -c /home/ubuntu/Documents/ICRA/DetectionLines/main.cpp
 
 CMakeFiles/DetectionLines.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DetectionLines.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ling/Documents/jwwangchn/ICRA/DetectionLines/main.cpp > CMakeFiles/DetectionLines.dir/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/Documents/ICRA/DetectionLines/main.cpp > CMakeFiles/DetectionLines.dir/main.cpp.i
 
 CMakeFiles/DetectionLines.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DetectionLines.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ling/Documents/jwwangchn/ICRA/DetectionLines/main.cpp -o CMakeFiles/DetectionLines.dir/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/Documents/ICRA/DetectionLines/main.cpp -o CMakeFiles/DetectionLines.dir/main.cpp.s
 
 CMakeFiles/DetectionLines.dir/main.cpp.o.requires:
 .PHONY : CMakeFiles/DetectionLines.dir/main.cpp.o.requires
@@ -84,39 +84,37 @@ DetectionLines_EXTERNAL_OBJECTS =
 
 DetectionLines: CMakeFiles/DetectionLines.dir/main.cpp.o
 DetectionLines: CMakeFiles/DetectionLines.dir/build.make
-DetectionLines: /usr/local/lib/libopencv_videostab.so.2.4.13
-DetectionLines: /usr/local/lib/libopencv_video.so.2.4.13
-DetectionLines: /usr/local/lib/libopencv_ts.a
-DetectionLines: /usr/local/lib/libopencv_superres.so.2.4.13
-DetectionLines: /usr/local/lib/libopencv_stitching.so.2.4.13
-DetectionLines: /usr/local/lib/libopencv_photo.so.2.4.13
-DetectionLines: /usr/local/lib/libopencv_ocl.so.2.4.13
-DetectionLines: /usr/local/lib/libopencv_objdetect.so.2.4.13
-DetectionLines: /usr/local/lib/libopencv_nonfree.so.2.4.13
-DetectionLines: /usr/local/lib/libopencv_ml.so.2.4.13
-DetectionLines: /usr/local/lib/libopencv_legacy.so.2.4.13
-DetectionLines: /usr/local/lib/libopencv_imgproc.so.2.4.13
-DetectionLines: /usr/local/lib/libopencv_highgui.so.2.4.13
-DetectionLines: /usr/local/lib/libopencv_gpu.so.2.4.13
-DetectionLines: /usr/local/lib/libopencv_flann.so.2.4.13
-DetectionLines: /usr/local/lib/libopencv_features2d.so.2.4.13
-DetectionLines: /usr/local/lib/libopencv_core.so.2.4.13
-DetectionLines: /usr/local/lib/libopencv_contrib.so.2.4.13
-DetectionLines: /usr/local/lib/libopencv_calib3d.so.2.4.13
-DetectionLines: /usr/local/lib/libopencv_nonfree.so.2.4.13
-DetectionLines: /usr/local/lib/libopencv_ocl.so.2.4.13
-DetectionLines: /usr/local/lib/libopencv_gpu.so.2.4.13
-DetectionLines: /usr/local/lib/libopencv_photo.so.2.4.13
-DetectionLines: /usr/local/lib/libopencv_objdetect.so.2.4.13
-DetectionLines: /usr/local/lib/libopencv_legacy.so.2.4.13
-DetectionLines: /usr/local/lib/libopencv_video.so.2.4.13
-DetectionLines: /usr/local/lib/libopencv_ml.so.2.4.13
-DetectionLines: /usr/local/lib/libopencv_calib3d.so.2.4.13
-DetectionLines: /usr/local/lib/libopencv_features2d.so.2.4.13
-DetectionLines: /usr/local/lib/libopencv_highgui.so.2.4.13
-DetectionLines: /usr/local/lib/libopencv_imgproc.so.2.4.13
-DetectionLines: /usr/local/lib/libopencv_flann.so.2.4.13
-DetectionLines: /usr/local/lib/libopencv_core.so.2.4.13
+DetectionLines: /home/ubuntu/anaconda2/lib/libopencv_videostab.so.2.4.11
+DetectionLines: /home/ubuntu/anaconda2/lib/libopencv_video.so.2.4.11
+DetectionLines: /home/ubuntu/anaconda2/lib/libopencv_ts.a
+DetectionLines: /home/ubuntu/anaconda2/lib/libopencv_superres.so.2.4.11
+DetectionLines: /home/ubuntu/anaconda2/lib/libopencv_stitching.so.2.4.11
+DetectionLines: /home/ubuntu/anaconda2/lib/libopencv_photo.so.2.4.11
+DetectionLines: /home/ubuntu/anaconda2/lib/libopencv_objdetect.so.2.4.11
+DetectionLines: /home/ubuntu/anaconda2/lib/libopencv_nonfree.so.2.4.11
+DetectionLines: /home/ubuntu/anaconda2/lib/libopencv_ml.so.2.4.11
+DetectionLines: /home/ubuntu/anaconda2/lib/libopencv_legacy.so.2.4.11
+DetectionLines: /home/ubuntu/anaconda2/lib/libopencv_imgproc.so.2.4.11
+DetectionLines: /home/ubuntu/anaconda2/lib/libopencv_highgui.so.2.4.11
+DetectionLines: /home/ubuntu/anaconda2/lib/libopencv_gpu.so.2.4.11
+DetectionLines: /home/ubuntu/anaconda2/lib/libopencv_flann.so.2.4.11
+DetectionLines: /home/ubuntu/anaconda2/lib/libopencv_features2d.so.2.4.11
+DetectionLines: /home/ubuntu/anaconda2/lib/libopencv_core.so.2.4.11
+DetectionLines: /home/ubuntu/anaconda2/lib/libopencv_contrib.so.2.4.11
+DetectionLines: /home/ubuntu/anaconda2/lib/libopencv_calib3d.so.2.4.11
+DetectionLines: /home/ubuntu/anaconda2/lib/libopencv_nonfree.so.2.4.11
+DetectionLines: /home/ubuntu/anaconda2/lib/libopencv_gpu.so.2.4.11
+DetectionLines: /home/ubuntu/anaconda2/lib/libopencv_photo.so.2.4.11
+DetectionLines: /home/ubuntu/anaconda2/lib/libopencv_objdetect.so.2.4.11
+DetectionLines: /home/ubuntu/anaconda2/lib/libopencv_legacy.so.2.4.11
+DetectionLines: /home/ubuntu/anaconda2/lib/libopencv_video.so.2.4.11
+DetectionLines: /home/ubuntu/anaconda2/lib/libopencv_ml.so.2.4.11
+DetectionLines: /home/ubuntu/anaconda2/lib/libopencv_calib3d.so.2.4.11
+DetectionLines: /home/ubuntu/anaconda2/lib/libopencv_features2d.so.2.4.11
+DetectionLines: /home/ubuntu/anaconda2/lib/libopencv_highgui.so.2.4.11
+DetectionLines: /home/ubuntu/anaconda2/lib/libopencv_imgproc.so.2.4.11
+DetectionLines: /home/ubuntu/anaconda2/lib/libopencv_flann.so.2.4.11
+DetectionLines: /home/ubuntu/anaconda2/lib/libopencv_core.so.2.4.11
 DetectionLines: CMakeFiles/DetectionLines.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable DetectionLines"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DetectionLines.dir/link.txt --verbose=$(VERBOSE)
@@ -133,6 +131,6 @@ CMakeFiles/DetectionLines.dir/clean:
 .PHONY : CMakeFiles/DetectionLines.dir/clean
 
 CMakeFiles/DetectionLines.dir/depend:
-	cd /home/ling/Documents/jwwangchn/ICRA/DetectionLines/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ling/Documents/jwwangchn/ICRA/DetectionLines /home/ling/Documents/jwwangchn/ICRA/DetectionLines /home/ling/Documents/jwwangchn/ICRA/DetectionLines/build /home/ling/Documents/jwwangchn/ICRA/DetectionLines/build /home/ling/Documents/jwwangchn/ICRA/DetectionLines/build/CMakeFiles/DetectionLines.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/Documents/ICRA/DetectionLines/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Documents/ICRA/DetectionLines /home/ubuntu/Documents/ICRA/DetectionLines /home/ubuntu/Documents/ICRA/DetectionLines/build /home/ubuntu/Documents/ICRA/DetectionLines/build /home/ubuntu/Documents/ICRA/DetectionLines/build/CMakeFiles/DetectionLines.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/DetectionLines.dir/depend
 

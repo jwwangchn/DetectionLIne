@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ling/Documents/jwwangchn/ICRA/DetectionLines/main.cpp" "/home/ling/Documents/jwwangchn/ICRA/DetectionLines/build/CMakeFiles/DetectionLines.dir/main.cpp.o"
+  "/home/ubuntu/Documents/ICRA/DetectionLines/main.cpp" "/home/ubuntu/Documents/ICRA/DetectionLines/build/CMakeFiles/DetectionLines.dir/main.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -14,8 +14,8 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/usr/local/include/opencv"
-  "/usr/local/include"
+  "/home/ubuntu/anaconda2/include/opencv"
+  "/home/ubuntu/anaconda2/include"
   "../asp/inc"
   "../uart/linux"
   )
